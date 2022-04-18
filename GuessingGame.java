@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class GuessingGame {
     public void guess() {
-        int guessedNumber = (int) (Math.random() * 100);
-        System.out.println("I have randomly chosen a number between [1, 100]");
+        int guessedNumber = (int) (Math.random() * 10000);
+        System.out.println("I have randomly chosen a number between [1, 10000]");
         System.out.println("Try to guess it");
         
         int userInput = 0;

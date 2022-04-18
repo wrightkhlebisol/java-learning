@@ -1,8 +1,12 @@
 
 public class Main {
     public static void main(String[] args) {
-        GuessingGame guessingGame = new GuessingGame();
-        guessingGame.guess();
+        GuessTheGame guessTheGame = new GuessTheGame();
+        try {
+            guessTheGame.guess();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
         
     }
 }
