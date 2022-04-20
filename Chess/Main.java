@@ -1,6 +1,7 @@
 package Chess;
 
 import Chess.Pieces.Queen;
+import Chess.Position;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
 package Chess;
 
 public class Position {
-    int row;
-    int column;
+    public int row;
+    public int column;
 
     Position(int r, int c){
         this.row = r;

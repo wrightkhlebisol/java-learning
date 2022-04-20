@@ -1,3 +1,4 @@
+package ContactManager;
 public class Contact {
     
     String name;

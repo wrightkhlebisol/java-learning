@@ -1,3 +1,4 @@
+package ContactManager;
 public class ContactManager {
 
     Contact[] myFriends;
